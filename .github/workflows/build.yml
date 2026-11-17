@@ -1,0 +1,71 @@
+name: 构建并部署
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 每周一 02:00 (UTC+8) 重新生成，保证 DTSTAMP 新鲜
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    # 避免机器人提交触发的重复执行
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 自检（农历/节气/美国节日日期校验）
+        run: python selftest.py
+
+      - name: 生成 .ics
+        run: python generate.py --out docs
+
+      - name: 回写生成的日历文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/*.ics
+          if git diff --staged --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore: 重新生成日历 [skip ci]"
+            git push
+          fi
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
