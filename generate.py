@@ -97,7 +97,11 @@ def main() -> int:
 
     cn_events = china.build(args.from_year, args.to_year, include_terms=not args.no_terms)
     us_events = usa.build(args.from_year, args.to_year)
-    stat_events = load_overrides(Path(args.overrides))
+    # 节假日数据源可能覆盖更早年份，按生成范围裁剪，避免出现范围外事件
+    stat_events = [
+        ev for ev in load_overrides(Path(args.overrides))
+        if args.from_year <= ev.day.year <= args.to_year
+    ]
 
     calendars = {
         "all.ics": dedupe(cn_events + us_events + stat_events),
