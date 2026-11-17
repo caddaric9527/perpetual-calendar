@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# .ics 必须保持 CRLF 原始字节（RFC 5545 要求），禁止任何换行转换
+*.ics -text
+*.png binary
+*.jpg binary
