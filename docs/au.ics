@@ -13,2784 +13,2784 @@ SOURCE;VALUE=URI:https://caddaric9527.github.io/perpetual-calendar/au.ics
 URL:https://caddaric9527.github.io/perpetual-calendar/au.ics
 BEGIN:VEVENT
 UID:20200101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200101
 DTEND;VALUE=DATE:20200102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200126
 DTEND;VALUE=DATE:20200127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200302-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200302
 DTEND;VALUE=DATE:20200303
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200410-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200410
 DTEND;VALUE=DATE:20200411
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200411-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200411
 DTEND;VALUE=DATE:20200412
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200412-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200412
 DTEND;VALUE=DATE:20200413
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200413-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200413
 DTEND;VALUE=DATE:20200414
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200425
 DTEND;VALUE=DATE:20200426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20200608-au-queen-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20200608
 DTEND;VALUE=DATE:20200609
-SUMMARY:🇦🇺 Queen's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 女王诞辰日
+DESCRIPTION:原名：Queen's Birthday\n公共假日\n数据源：date.nager
+ .at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20201225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20201225
 DTEND;VALUE=DATE:20201226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20201226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20201226
 DTEND;VALUE=DATE:20201227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210101
 DTEND;VALUE=DATE:20210102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210126
 DTEND;VALUE=DATE:20210127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210301-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210301
 DTEND;VALUE=DATE:20210302
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210402-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210402
 DTEND;VALUE=DATE:20210403
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210403-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210403
 DTEND;VALUE=DATE:20210404
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210404-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210404
 DTEND;VALUE=DATE:20210405
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210405-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210405
 DTEND;VALUE=DATE:20210406
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210425
 DTEND;VALUE=DATE:20210426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n连休 2 天（2021-04-25 至 2021-04-25）\n数
- 据源：date.nager.at（澳大利亚官方公布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20210614-au-queen-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20210614
 DTEND;VALUE=DATE:20210615
-SUMMARY:🇦🇺 Queen's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 女王诞辰日
+DESCRIPTION:原名：Queen's Birthday\n公共假日\n数据源：date.nager
+ .at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20211225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20211225
 DTEND;VALUE=DATE:20211226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20211226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20211226
 DTEND;VALUE=DATE:20211227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220101
 DTEND;VALUE=DATE:20220102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220126
 DTEND;VALUE=DATE:20220127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220307-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220307
 DTEND;VALUE=DATE:20220308
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220415-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220415
 DTEND;VALUE=DATE:20220416
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220416-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220416
 DTEND;VALUE=DATE:20220417
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220417-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220417
 DTEND;VALUE=DATE:20220418
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220418-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220418
 DTEND;VALUE=DATE:20220419
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220425
 DTEND;VALUE=DATE:20220426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220613-au-queen-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220613
 DTEND;VALUE=DATE:20220614
-SUMMARY:🇦🇺 Queen's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 女王诞辰日
+DESCRIPTION:原名：Queen's Birthday\n公共假日\n数据源：date.nager
+ .at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20220922-au-national-day-of-mourning@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20220922
 DTEND;VALUE=DATE:20220923
-SUMMARY:🇦🇺 National Day of Mourning
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 全国哀悼日
+DESCRIPTION:原名：National Day of Mourning\n公共假日\n数据源：da
+ te.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20221225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20221225
 DTEND;VALUE=DATE:20221226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20221226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20221226
 DTEND;VALUE=DATE:20221227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230126
 DTEND;VALUE=DATE:20230127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230306-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230306
 DTEND;VALUE=DATE:20230307
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230407-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230407
 DTEND;VALUE=DATE:20230408
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230408-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230408
 DTEND;VALUE=DATE:20230409
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230409-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230409
 DTEND;VALUE=DATE:20230410
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230410-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230410
 DTEND;VALUE=DATE:20230411
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230425
 DTEND;VALUE=DATE:20230426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20230612-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20230612
 DTEND;VALUE=DATE:20230613
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20231225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20231225
 DTEND;VALUE=DATE:20231226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20231226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20231226
 DTEND;VALUE=DATE:20231227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240101
 DTEND;VALUE=DATE:20240102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240126
 DTEND;VALUE=DATE:20240127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240304-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240304
 DTEND;VALUE=DATE:20240305
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240329-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240329
 DTEND;VALUE=DATE:20240330
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240330-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240330
 DTEND;VALUE=DATE:20240331
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240331-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240331
 DTEND;VALUE=DATE:20240401
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240401-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240401
 DTEND;VALUE=DATE:20240402
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240425
 DTEND;VALUE=DATE:20240426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20240610-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20240610
 DTEND;VALUE=DATE:20240611
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20241225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20241225
 DTEND;VALUE=DATE:20241226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20241226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20241226
 DTEND;VALUE=DATE:20241227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250101
 DTEND;VALUE=DATE:20250102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250126
 DTEND;VALUE=DATE:20250127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250303-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250303
 DTEND;VALUE=DATE:20250304
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250418-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250418
 DTEND;VALUE=DATE:20250419
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250419-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250419
 DTEND;VALUE=DATE:20250420
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250420-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250420
 DTEND;VALUE=DATE:20250421
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250421-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250421
 DTEND;VALUE=DATE:20250422
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250425
 DTEND;VALUE=DATE:20250426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20250609-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20250609
 DTEND;VALUE=DATE:20250610
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20251225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20251225
 DTEND;VALUE=DATE:20251226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20251226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20251226
 DTEND;VALUE=DATE:20251227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260126
 DTEND;VALUE=DATE:20260127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260302-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260403-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260403
 DTEND;VALUE=DATE:20260404
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260404-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260404
 DTEND;VALUE=DATE:20260405
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260405-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260406-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20260608-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260609
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20261225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20261226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270301-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270326-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270327-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270328
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270328-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270329-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n连休 2 天（2027-04-25 至 2027-04-25）\n数
- 据源：date.nager.at（澳大利亚官方公布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20270614-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270615
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20271225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20271225
 DTEND;VALUE=DATE:20271226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20271226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20271226
 DTEND;VALUE=DATE:20271227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280126
 DTEND;VALUE=DATE:20280127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280306-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280306
 DTEND;VALUE=DATE:20280307
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280414-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280414
 DTEND;VALUE=DATE:20280415
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280415-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280415
 DTEND;VALUE=DATE:20280416
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280416-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280416
 DTEND;VALUE=DATE:20280417
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280417-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280417
 DTEND;VALUE=DATE:20280418
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280425
 DTEND;VALUE=DATE:20280426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20280612-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20280612
 DTEND;VALUE=DATE:20280613
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20281225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20281225
 DTEND;VALUE=DATE:20281226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20281226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20281226
 DTEND;VALUE=DATE:20281227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290101
 DTEND;VALUE=DATE:20290102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290126
 DTEND;VALUE=DATE:20290127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290305-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290305
 DTEND;VALUE=DATE:20290306
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290330-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290330
 DTEND;VALUE=DATE:20290331
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290331-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290331
 DTEND;VALUE=DATE:20290401
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290401-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290401
 DTEND;VALUE=DATE:20290402
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290402-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290402
 DTEND;VALUE=DATE:20290403
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290425
 DTEND;VALUE=DATE:20290426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20290611-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20290611
 DTEND;VALUE=DATE:20290612
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20291225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20291225
 DTEND;VALUE=DATE:20291226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20291226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20291226
 DTEND;VALUE=DATE:20291227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300101
 DTEND;VALUE=DATE:20300102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300126
 DTEND;VALUE=DATE:20300127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300304-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300304
 DTEND;VALUE=DATE:20300305
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300419-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300419
 DTEND;VALUE=DATE:20300420
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300420-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300420
 DTEND;VALUE=DATE:20300421
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300421-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300421
 DTEND;VALUE=DATE:20300422
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300422-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300422
 DTEND;VALUE=DATE:20300423
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300425
 DTEND;VALUE=DATE:20300426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20300610-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20300610
 DTEND;VALUE=DATE:20300611
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20301225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20301225
 DTEND;VALUE=DATE:20301226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20301226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20301226
 DTEND;VALUE=DATE:20301227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310101
 DTEND;VALUE=DATE:20310102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310126
 DTEND;VALUE=DATE:20310127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310303-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310303
 DTEND;VALUE=DATE:20310304
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310411-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310411
 DTEND;VALUE=DATE:20310412
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310412-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310412
 DTEND;VALUE=DATE:20310413
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310413-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310413
 DTEND;VALUE=DATE:20310414
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310414-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310414
 DTEND;VALUE=DATE:20310415
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310425
 DTEND;VALUE=DATE:20310426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20310609-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20310609
 DTEND;VALUE=DATE:20310610
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20311225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20311225
 DTEND;VALUE=DATE:20311226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20311226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20311226
 DTEND;VALUE=DATE:20311227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320101
 DTEND;VALUE=DATE:20320102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320126
 DTEND;VALUE=DATE:20320127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320301-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320301
 DTEND;VALUE=DATE:20320302
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320326-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320326
 DTEND;VALUE=DATE:20320327
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320327-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320327
 DTEND;VALUE=DATE:20320328
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320328-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320328
 DTEND;VALUE=DATE:20320329
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320329-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320329
 DTEND;VALUE=DATE:20320330
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320425
 DTEND;VALUE=DATE:20320426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n连休 2 天（2032-04-25 至 2032-04-25）\n数
- 据源：date.nager.at（澳大利亚官方公布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20320614-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20320614
 DTEND;VALUE=DATE:20320615
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20321225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20321225
 DTEND;VALUE=DATE:20321226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20321226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20321226
 DTEND;VALUE=DATE:20321227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330101
-DTEND;VALUE=DATE:20330102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330126
-DTEND;VALUE=DATE:20330127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330307-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330307
-DTEND;VALUE=DATE:20330308
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330415-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330415
-DTEND;VALUE=DATE:20330416
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330416-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330416
-DTEND;VALUE=DATE:20330417
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330417-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330417
-DTEND;VALUE=DATE:20330418
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330418-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330418
-DTEND;VALUE=DATE:20330419
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330425
-DTEND;VALUE=DATE:20330426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20330613-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20330613
-DTEND;VALUE=DATE:20330614
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20331225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20331225
-DTEND;VALUE=DATE:20331226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20331226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20331226
-DTEND;VALUE=DATE:20331227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340101
-DTEND;VALUE=DATE:20340102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340126
-DTEND;VALUE=DATE:20340127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340306-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340306
-DTEND;VALUE=DATE:20340307
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340407-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340407
-DTEND;VALUE=DATE:20340408
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340408-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340408
-DTEND;VALUE=DATE:20340409
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340409-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340409
-DTEND;VALUE=DATE:20340410
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340410-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340410
-DTEND;VALUE=DATE:20340411
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340425
-DTEND;VALUE=DATE:20340426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20340612-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20340612
-DTEND;VALUE=DATE:20340613
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20341225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20341225
-DTEND;VALUE=DATE:20341226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20341226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20341226
-DTEND;VALUE=DATE:20341227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350101
-DTEND;VALUE=DATE:20350102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350126
-DTEND;VALUE=DATE:20350127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350305-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350305
-DTEND;VALUE=DATE:20350306
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350323-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350323
-DTEND;VALUE=DATE:20350324
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350324-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350324
-DTEND;VALUE=DATE:20350325
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350325-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350325
-DTEND;VALUE=DATE:20350326
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350326-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350326
-DTEND;VALUE=DATE:20350327
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350425
-DTEND;VALUE=DATE:20350426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20350611-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20350611
-DTEND;VALUE=DATE:20350612
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20351225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20351225
-DTEND;VALUE=DATE:20351226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20351226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20351226
-DTEND;VALUE=DATE:20351227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360101
-DTEND;VALUE=DATE:20360102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360126
-DTEND;VALUE=DATE:20360127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360303-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360303
-DTEND;VALUE=DATE:20360304
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360411-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360411
-DTEND;VALUE=DATE:20360412
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360412-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360412
-DTEND;VALUE=DATE:20360413
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360413-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360413
-DTEND;VALUE=DATE:20360414
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360414-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360414
-DTEND;VALUE=DATE:20360415
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360425
-DTEND;VALUE=DATE:20360426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20360609-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20360609
-DTEND;VALUE=DATE:20360610
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20361225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20361225
-DTEND;VALUE=DATE:20361226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20361226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20361226
-DTEND;VALUE=DATE:20361227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370101
-DTEND;VALUE=DATE:20370102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370126
-DTEND;VALUE=DATE:20370127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370302-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370302
-DTEND;VALUE=DATE:20370303
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370403-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370403
-DTEND;VALUE=DATE:20370404
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370404-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370404
-DTEND;VALUE=DATE:20370405
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370405-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370405
-DTEND;VALUE=DATE:20370406
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370406-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370406
-DTEND;VALUE=DATE:20370407
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370425
-DTEND;VALUE=DATE:20370426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20370608-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20370608
-DTEND;VALUE=DATE:20370609
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20371225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20371225
-DTEND;VALUE=DATE:20371226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20371226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20371226
-DTEND;VALUE=DATE:20371227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380101
-DTEND;VALUE=DATE:20380102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380126
-DTEND;VALUE=DATE:20380127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380301-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380301
-DTEND;VALUE=DATE:20380302
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380423-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380423
-DTEND;VALUE=DATE:20380424
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380424-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380424
-DTEND;VALUE=DATE:20380425
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
-CATEGORIES:🇦🇺 澳大利亚节日
-TRANSP:TRANSPARENT
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:20380425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
-DTSTART;VALUE=DATE:20380425
-DTEND;VALUE=DATE:20380426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n连休 2 天（2038-04-25 至 2038-04-25）\n数
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
  据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:20380425-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+UID:20330101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330101
+DTEND;VALUE=DATE:20330102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330126
+DTEND;VALUE=DATE:20330127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330307-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330307
+DTEND;VALUE=DATE:20330308
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330415-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330415
+DTEND;VALUE=DATE:20330416
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330416-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330416
+DTEND;VALUE=DATE:20330417
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330417-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330417
+DTEND;VALUE=DATE:20330418
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330418-au-easter-monday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330418
+DTEND;VALUE=DATE:20330419
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330425
+DTEND;VALUE=DATE:20330426
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20330613-au-king-s-birthday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20330613
+DTEND;VALUE=DATE:20330614
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20331225-au-christmas-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20331225
+DTEND;VALUE=DATE:20331226
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20331226-au-st-stephen-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20331226
+DTEND;VALUE=DATE:20331227
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340101
+DTEND;VALUE=DATE:20340102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340126
+DTEND;VALUE=DATE:20340127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340306-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340306
+DTEND;VALUE=DATE:20340307
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340407-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340407
+DTEND;VALUE=DATE:20340408
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340408-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340408
+DTEND;VALUE=DATE:20340409
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340409-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340409
+DTEND;VALUE=DATE:20340410
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340410-au-easter-monday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340410
+DTEND;VALUE=DATE:20340411
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340425
+DTEND;VALUE=DATE:20340426
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20340612-au-king-s-birthday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20340612
+DTEND;VALUE=DATE:20340613
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20341225-au-christmas-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20341225
+DTEND;VALUE=DATE:20341226
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20341226-au-st-stephen-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20341226
+DTEND;VALUE=DATE:20341227
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350101
+DTEND;VALUE=DATE:20350102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350126
+DTEND;VALUE=DATE:20350127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350305-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350305
+DTEND;VALUE=DATE:20350306
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350323-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350323
+DTEND;VALUE=DATE:20350324
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350324-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350324
+DTEND;VALUE=DATE:20350325
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350325-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350325
+DTEND;VALUE=DATE:20350326
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350326-au-easter-monday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350326
+DTEND;VALUE=DATE:20350327
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350425
+DTEND;VALUE=DATE:20350426
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20350611-au-king-s-birthday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20350611
+DTEND;VALUE=DATE:20350612
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20351225-au-christmas-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20351225
+DTEND;VALUE=DATE:20351226
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20351226-au-st-stephen-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20351226
+DTEND;VALUE=DATE:20351227
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360101
+DTEND;VALUE=DATE:20360102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360126
+DTEND;VALUE=DATE:20360127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360303-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360303
+DTEND;VALUE=DATE:20360304
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360411-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360411
+DTEND;VALUE=DATE:20360412
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360412-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360412
+DTEND;VALUE=DATE:20360413
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360413-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360413
+DTEND;VALUE=DATE:20360414
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360414-au-easter-monday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360414
+DTEND;VALUE=DATE:20360415
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360425
+DTEND;VALUE=DATE:20360426
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20360609-au-king-s-birthday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20360609
+DTEND;VALUE=DATE:20360610
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20361225-au-christmas-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20361225
+DTEND;VALUE=DATE:20361226
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20361226-au-st-stephen-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20361226
+DTEND;VALUE=DATE:20361227
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370101
+DTEND;VALUE=DATE:20370102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370126
+DTEND;VALUE=DATE:20370127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370302-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370302
+DTEND;VALUE=DATE:20370303
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370403-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370403
+DTEND;VALUE=DATE:20370404
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370404-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370404
+DTEND;VALUE=DATE:20370405
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370405-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370405
+DTEND;VALUE=DATE:20370406
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370406-au-easter-monday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370406
+DTEND;VALUE=DATE:20370407
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370425
+DTEND;VALUE=DATE:20370426
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20370608-au-king-s-birthday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20370608
+DTEND;VALUE=DATE:20370609
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20371225-au-christmas-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20371225
+DTEND;VALUE=DATE:20371226
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20371226-au-st-stephen-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20371226
+DTEND;VALUE=DATE:20371227
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380101-au-new-year-s-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380101
+DTEND;VALUE=DATE:20380102
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380126-au-australia-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380126
+DTEND;VALUE=DATE:20380127
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380301-au-labour-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380301
+DTEND;VALUE=DATE:20380302
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380423-au-good-friday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380423
+DTEND;VALUE=DATE:20380424
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380424-au-holy-saturday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380424
+DTEND;VALUE=DATE:20380425
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380425-au-anzac-day@perpetual-calendar
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20380425
 DTEND;VALUE=DATE:20380426
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
+CATEGORIES:🇦🇺 澳大利亚节日
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:20380425-au-easter-sunday@perpetual-calendar
+DTSTAMP:20261118T121337Z
+DTSTART;VALUE=DATE:20380425
+DTEND;VALUE=DATE:20380426
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20380426-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20380426
 DTEND;VALUE=DATE:20380427
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20380614-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20380614
 DTEND;VALUE=DATE:20380615
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20381225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20381225
 DTEND;VALUE=DATE:20381226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20381226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20381226
 DTEND;VALUE=DATE:20381227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390101
 DTEND;VALUE=DATE:20390102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390126
 DTEND;VALUE=DATE:20390127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390307-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390307
 DTEND;VALUE=DATE:20390308
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390408-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390408
 DTEND;VALUE=DATE:20390409
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390409-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390409
 DTEND;VALUE=DATE:20390410
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390410-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390410
 DTEND;VALUE=DATE:20390411
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390411-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390411
 DTEND;VALUE=DATE:20390412
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390425
 DTEND;VALUE=DATE:20390426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20390613-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20390613
 DTEND;VALUE=DATE:20390614
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20391225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20391225
 DTEND;VALUE=DATE:20391226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20391226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20391226
 DTEND;VALUE=DATE:20391227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400101-au-new-year-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400101
 DTEND;VALUE=DATE:20400102
-SUMMARY:🇦🇺 New Year's Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 元旦
+DESCRIPTION:原名：New Year's Day\n公共假日\n数据源：date.nager.a
+ t（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400126-au-australia-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400126
 DTEND;VALUE=DATE:20400127
-SUMMARY:🇦🇺 Australia Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳大利亚国庆日
+DESCRIPTION:原名：Australia Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400305-au-labour-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400305
 DTEND;VALUE=DATE:20400306
-SUMMARY:🇦🇺 Labour Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 劳动节
+DESCRIPTION:原名：Labour Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400330-au-good-friday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400330
 DTEND;VALUE=DATE:20400331
-SUMMARY:🇦🇺 Good Friday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 耶稣受难日
+DESCRIPTION:原名：Good Friday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400331-au-holy-saturday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400331
 DTEND;VALUE=DATE:20400401
-SUMMARY:🇦🇺 Easter Eve
-DESCRIPTION:Holy Saturday\n公共假日\n数据源：date.nager.at（澳大
- 利亚官方公布日期）
+SUMMARY:🇦🇺 圣周六
+DESCRIPTION:原名：Easter Eve（Holy Saturday）\n公共假日\n数据源
+ ：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400401-au-easter-sunday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400401
 DTEND;VALUE=DATE:20400402
-SUMMARY:🇦🇺 Easter Sunday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期日
+DESCRIPTION:原名：Easter Sunday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400402-au-easter-monday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400402
 DTEND;VALUE=DATE:20400403
-SUMMARY:🇦🇺 Easter Monday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 复活节星期一
+DESCRIPTION:原名：Easter Monday\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400425-au-anzac-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400425
 DTEND;VALUE=DATE:20400426
-SUMMARY:🇦🇺 Anzac Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 澳新军团日
+DESCRIPTION:原名：Anzac Day\n公共假日\n数据源：date.nager.at（
+ 澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20400611-au-king-s-birthday@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20400611
 DTEND;VALUE=DATE:20400612
-SUMMARY:🇦🇺 King's Birthday
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 国王诞辰日
+DESCRIPTION:原名：King's Birthday\n公共假日\n数据源：date.nager.
+ at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20401225-au-christmas-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20401225
 DTEND;VALUE=DATE:20401226
-SUMMARY:🇦🇺 Christmas Day
-DESCRIPTION:公共假日\n数据源：date.nager.at（澳大利亚官方公
- 布日期）
+SUMMARY:🇦🇺 圣诞节
+DESCRIPTION:原名：Christmas Day\n公共假日\n数据源：date.nager.at
+ （澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:20401226-au-st-stephen-s-day@perpetual-calendar
-DTSTAMP:20261118T120730Z
+DTSTAMP:20261118T121337Z
 DTSTART;VALUE=DATE:20401226
 DTEND;VALUE=DATE:20401227
-SUMMARY:🇦🇺 Boxing Day
-DESCRIPTION:St. Stephen's Day\n公共假日\n数据源：date.nager.at（
- 澳大利亚官方公布日期）
+SUMMARY:🇦🇺 节礼日
+DESCRIPTION:原名：Boxing Day（St. Stephen's Day）\n公共假日\n数
+ 据源：date.nager.at（澳大利亚官方公布日期）
 CATEGORIES:🇦🇺 澳大利亚节日
 TRANSP:TRANSPARENT
 CLASS:PUBLIC

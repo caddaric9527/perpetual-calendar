@@ -22,6 +22,8 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
+from . import i18n
+from .i18n import normalize
 from .ical import Event
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -156,19 +158,22 @@ def build(cc: str, year_from: int, year_to: int) -> list[Event]:
             start = date(start.year, nominal[0], nominal[1])
             end = start
 
+        zh = i18n.zh_name(local, name)
         desc = []
-        if name != local:
+        if zh:  # 中文摘要 + 详情保留英文原名，方便与官方公告核对
+            desc.append(f"原名：{local}" if normalize(local) == normalize(name) else f"原名：{local}（{name}）")
+        elif name != local:
             desc.append(name)
         desc.append("公共假日")
-        if len(run) > 1:
+        if len(run) > 1 and not nominal:
             desc.append(f"连休 {len(run)} 天（{start:%Y-%m-%d} 至 {end:%Y-%m-%d}）")
         desc.append(f"数据源：date.nager.at（{country.name}官方公布日期）")
 
         events.append(
             Event(
                 day=start,
-                key=f"{cc}-{slug(name)}",
-                summary=f"{country.flag} {local}",
+                key=f"{cc}-{slug(name)}",  # UID 保持英文 slug，改名不产生重复事件
+                summary=f"{country.flag} {zh or local}",
                 category=country.category,
                 description="\n".join(desc),
             )

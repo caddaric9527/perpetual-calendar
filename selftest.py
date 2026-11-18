@@ -3,10 +3,11 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from datetime import date
 
-from calgen import china, world
+from calgen import china, i18n, world
 
 fails: list[str] = []
 
@@ -55,29 +56,50 @@ def exact(cc: str, year: int, name: str):
 
 us = world.build("us", 2026, 2026)
 check("美国 2026 条目数在 8-13", 8 <= len(us) <= 13, True)
-tg = first("us", 2026, "Thanksgiving")
+tg = first("us", 2026, "感恩节")
 check("2026 美国感恩节", tg.day if tg else None, date(2026, 11, 26))
-check("2026 美国独立日（还原名义日 7/4）", exact("us", 2026, "Independence Day").day, date(2026, 7, 4))
+check("2026 美国独立日（还原名义日 7/4）", exact("us", 2026, "独立日").day, date(2026, 7, 4))
 
 gb = world.build("gb", 2026, 2026)
 check("2026 英国条目数在 6-10", 6 <= len(gb) <= 10, True)
-check("2026 英国 Boxing Day（名义日 12/26）", first("gb", 2026, "Boxing Day").day, date(2026, 12, 26))
-check("2026 英国春季银行假日", first("gb", 2026, "Spring Bank Holiday").day, date(2026, 5, 25))
+check("2026 英国节礼日（名义日 12/26）", first("gb", 2026, "节礼日").day, date(2026, 12, 26))
+check("2026 英国春季银行假日", first("gb", 2026, "春季银行假日").day, date(2026, 5, 25))
 
 ca = world.build("ca", 2026, 2026)
 check("2026 加拿大条目数在 6-10", 6 <= len(ca) <= 10, True)
-check("2026 加拿大国庆", first("ca", 2026, "Canada Day").day, date(2026, 7, 1))
-check("2026 加拿大维多利亚日", first("ca", 2026, "Victoria Day").day, date(2026, 5, 18))
+check("2026 加拿大国庆日", first("ca", 2026, "加拿大国庆日").day, date(2026, 7, 1))
+check("2026 加拿大维多利亚日", first("ca", 2026, "维多利亚日").day, date(2026, 5, 18))
 
 au = world.build("au", 2026, 2026)
 check("2026 澳大利亚条目数在 7-13", 7 <= len(au) <= 13, True)
-check("2026 澳新军团日", first("au", 2026, "Anzac Day").day, date(2026, 4, 25))
-check("2026 澳大利亚 Boxing Day（名义日 12/26）", first("au", 2026, "Boxing Day").day, date(2026, 12, 26))
+check("2026 澳新军团日", first("au", 2026, "澳新军团日").day, date(2026, 4, 25))
+check("2026 澳大利亚节礼日（名义日 12/26）", first("au", 2026, "节礼日").day, date(2026, 12, 26))
 
 sg = world.build("sg", 2026, 2026)
 check("2026 新加坡条目数 >= 9", len(sg) >= 9, True)
-check("2026 新加坡农历新年", first("sg", 2026, "Chinese New Year").day, date(2026, 2, 17))
-check("2026 新加坡开斋节（官方公布，非规则推算）", first("sg", 2026, "Hari Raya Puasa").day, date(2026, 3, 21))
+check("2026 新加坡农历新年", first("sg", 2026, "农历新年").day, date(2026, 2, 17))
+check("2026 新加坡开斋节（官方公布，非规则推算）", first("sg", 2026, "开斋节").day, date(2026, 3, 21))
+
+# ---------- 中文译名 ----------
+title = lambda ev: ev.summary.split(" ", 1)[1]  # 去掉国旗
+check("外国事件摘要全部为中文",
+      all(i18n.has_cjk(title(e)) for e in world.build_all(2026, 2026)), True)
+check("中文摘要不含英文残句",
+      any(re.search(r"[A-Za-z]{3,}", title(e)) for e in world.build_all(2026, 2026)), False)
+
+# 全时段译名覆盖：缺译只告警（新节日出现不应阻断发布），但会打印清单提示补表
+missing: set[str] = set()
+for country in world.COUNTRIES:
+    for d in world.load(country.cc):
+        raw = [d.get("local") or "", d.get("name") or ""]
+        if not i18n.zh_name(*raw):
+            missing.add(f"{country.cc}:{raw[1] or raw[0]}")
+if missing:
+    print(f"⚠️ 以下 {len(missing)} 个节日名暂无中文译名（日历中保留英文）：")
+    for m in sorted(missing):
+        print("   -", m)
+else:
+    print("✅ 全部节日名均有中文译名")
 
 # ---------- 呈现口径 ----------
 check("英语五国数量", len(world.COUNTRIES), 5)
