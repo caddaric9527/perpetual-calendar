@@ -1,0 +1,233 @@
+{
+  "_source": "联合国官方国际日（un.org/zh/observances）+ 全球通行民间节日，人工整理",
+  "_rule": "固定日期用 month/day；浮动日期用 rule：nth_sunday / nth_thursday（配 month + nth）或 easter",
+  "_note": "与中国日历重复的（妇女节、劳动节、儿童节）只在 cn 日历出现，此处不重复收录",
+  "days": [
+    {
+      "key": "consumer-rights",
+      "name": "国际消费者权益日",
+      "kind": "memorial",
+      "month": 3,
+      "day": 15,
+      "desc": "1983 年起，纪念肯尼迪提出消费者的四项权利"
+    },
+    {
+      "key": "happiness",
+      "name": "国际幸福日",
+      "kind": "memorial",
+      "month": 3,
+      "day": 20,
+      "desc": "2012 年联大设立，强调幸福与福祉是发展的目标"
+    },
+    {
+      "key": "forest",
+      "name": "世界森林日",
+      "kind": "memorial",
+      "month": 3,
+      "day": 21,
+      "desc": "2012 年联大设立，呼吁保护所有类型的森林"
+    },
+    {
+      "key": "water",
+      "name": "世界水日",
+      "kind": "memorial",
+      "month": 3,
+      "day": 22,
+      "desc": "1993 年联大设立，关注全球淡水资源危机"
+    },
+    {
+      "key": "meteorology",
+      "name": "世界气象日",
+      "kind": "memorial",
+      "month": 3,
+      "day": 23,
+      "desc": "纪念 1950 年《世界气象组织公约》生效"
+    },
+    {
+      "key": "health",
+      "name": "世界卫生日",
+      "kind": "memorial",
+      "month": 4,
+      "day": 7,
+      "desc": "纪念 1948 年世界卫生组织成立"
+    },
+    {
+      "key": "earth",
+      "name": "世界地球日",
+      "kind": "memorial",
+      "month": 4,
+      "day": 22,
+      "desc": "1970 年源于美国环保运动，2009 年联大定为国际地球母亲日"
+    },
+    {
+      "key": "book",
+      "name": "世界读书日",
+      "kind": "memorial",
+      "month": 4,
+      "day": 23,
+      "desc": "纪念塞万提斯与莎士比亚逝世，倡导阅读"
+    },
+    {
+      "key": "environment",
+      "name": "世界环境日",
+      "kind": "memorial",
+      "month": 6,
+      "day": 5,
+      "desc": "1972 年斯德哥尔摩人类环境会议发起"
+    },
+    {
+      "key": "youth",
+      "name": "国际青年日",
+      "kind": "memorial",
+      "month": 8,
+      "day": 12,
+      "desc": "1999 年联大设立，关注青年参与社会发展"
+    },
+    {
+      "key": "humanitarian",
+      "name": "世界人道主义日",
+      "kind": "memorial",
+      "month": 8,
+      "day": 19,
+      "desc": "纪念 2003 年巴格达联合国办事处爆炸中的遇难者"
+    },
+    {
+      "key": "peace",
+      "name": "国际和平日",
+      "kind": "memorial",
+      "month": 9,
+      "day": 21,
+      "desc": "1981 年联大设立，全球停火与非暴力日"
+    },
+    {
+      "key": "tourism",
+      "name": "世界旅游日",
+      "kind": "memorial",
+      "month": 9,
+      "day": 27,
+      "desc": "纪念 1970 年世界旅游组织章程生效"
+    },
+    {
+      "key": "teachers",
+      "name": "世界教师日",
+      "kind": "memorial",
+      "month": 10,
+      "day": 5,
+      "desc": "1994 年起，纪念 1966 年《关于教师地位的建议书》"
+    },
+    {
+      "key": "mental-health",
+      "name": "世界精神卫生日",
+      "kind": "memorial",
+      "month": 10,
+      "day": 10,
+      "desc": "1992 年世界心理卫生联合会发起，关注心理健康"
+    },
+    {
+      "key": "food",
+      "name": "世界粮食日",
+      "kind": "memorial",
+      "month": 10,
+      "day": 16,
+      "desc": "纪念 1945 年联合国粮农组织成立"
+    },
+    {
+      "key": "united-nations",
+      "name": "联合国日",
+      "kind": "memorial",
+      "month": 10,
+      "day": 24,
+      "desc": "纪念 1945 年《联合国宪章》生效"
+    },
+    {
+      "key": "aids",
+      "name": "世界艾滋病日",
+      "kind": "memorial",
+      "month": 12,
+      "day": 1,
+      "desc": "1988 年起，悼念因艾滋病逝去的人，倡导防治"
+    },
+    {
+      "key": "human-rights",
+      "name": "世界人权日",
+      "kind": "memorial",
+      "month": 12,
+      "day": 10,
+      "desc": "纪念 1948 年《世界人权宣言》通过"
+    },
+    {
+      "key": "valentine",
+      "name": "情人节",
+      "kind": "festival",
+      "month": 2,
+      "day": 14,
+      "desc": "西方情人节，源自圣瓦伦丁纪念日"
+    },
+    {
+      "key": "april-fool",
+      "name": "愚人节",
+      "kind": "festival",
+      "month": 4,
+      "day": 1,
+      "desc": "西方民间传统，以玩笑与恶作剧为乐"
+    },
+    {
+      "key": "mothers-day",
+      "name": "母亲节",
+      "kind": "festival",
+      "month": 5,
+      "rule": "nth_sunday",
+      "nth": 2,
+      "desc": "5 月第 2 个周日，源自美国，全球多国通行"
+    },
+    {
+      "key": "fathers-day",
+      "name": "父亲节",
+      "kind": "festival",
+      "month": 6,
+      "rule": "nth_sunday",
+      "nth": 3,
+      "desc": "6 月第 3 个周日，源自美国，全球多国通行"
+    },
+    {
+      "key": "halloween",
+      "name": "万圣节",
+      "kind": "festival",
+      "month": 10,
+      "day": 31,
+      "desc": "万圣节前夜，西方传统鬼节"
+    },
+    {
+      "key": "thanksgiving",
+      "name": "感恩节",
+      "kind": "festival",
+      "month": 11,
+      "rule": "nth_thursday",
+      "nth": 4,
+      "desc": "11 月第 4 个周四，源自美国，多国跟随"
+    },
+    {
+      "key": "easter",
+      "name": "复活节",
+      "kind": "festival",
+      "rule": "easter",
+      "desc": "春分月圆后首个周日（computus），西方最重要的节日之一"
+    },
+    {
+      "key": "christmas-eve",
+      "name": "平安夜",
+      "kind": "festival",
+      "month": 12,
+      "day": 24,
+      "desc": "圣诞节前夜"
+    },
+    {
+      "key": "christmas",
+      "name": "圣诞节",
+      "kind": "festival",
+      "month": 12,
+      "day": 25,
+      "desc": "纪念耶稣诞生，全球最广泛的民间节日"
+    }
+  ]
+}

@@ -37,11 +37,7 @@ jobs:
         continue-on-error: true
         run: python sync_holidays.py --from-year 2018 --to-year 2035
 
-      - name: 同步各国公共节日（date.nager.at）
-        continue-on-error: true
-        run: python sync_world.py --from-year 2020 --to-year 2040
-
-      - name: 自检（农历/节气/各国节日口径校验）
+      - name: 自检（农历/节气/全球节日规则校验）
         run: python selftest.py
 
       - name: 生成 .ics
@@ -51,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/*.ics data/holidays_cn.json data/world
+          git add docs/*.ics data/holidays_cn.json
           if git diff --staged --quiet; then
             echo "无变更"
           else

@@ -7,7 +7,7 @@ import re
 import sys
 from datetime import date
 
-from calgen import china, i18n, world
+from calgen import china, intl
 
 fails: list[str] = []
 
@@ -41,72 +41,56 @@ cn = china.build(2026, 2026)
 check("2026 中国条目数 > 40", len(cn) > 40, True)
 
 
-# ---------- 外国：只呈现节日 ----------
-def first(cc: str, year: int, kw: str):
-    evs = [e for e in world.build(cc, year, year) if kw in e.summary]
+# ---------- 全球通用节日：日期规则 ----------
+def one(year: int, name: str):
+    evs = [e for e in intl.build(year, year) if e.summary.endswith(name)]
     return evs[0] if evs else None
 
 
-def exact(cc: str, year: int, name: str):
-    """按节日全名精确匹配（避免 Independence Day 命中 Juneteenth National Independence Day）。"""
-    flag = world.BY_CC[cc].flag
-    evs = [e for e in world.build(cc, year, year) if e.summary == f"{flag} {name}"]
-    return evs[0] if evs else None
+def day_of(year: int, name: str):
+    ev = one(year, name)
+    return ev.day if ev else None
 
 
-us = world.build("us", 2026, 2026)
-check("美国 2026 条目数在 8-13", 8 <= len(us) <= 13, True)
-tg = first("us", 2026, "感恩节")
-check("2026 美国感恩节", tg.day if tg else None, date(2026, 11, 26))
-check("2026 美国独立日（还原名义日 7/4）", exact("us", 2026, "独立日").day, date(2026, 7, 4))
-
-gb = world.build("gb", 2026, 2026)
-check("2026 英国条目数在 6-10", 6 <= len(gb) <= 10, True)
-check("2026 英国节礼日（名义日 12/26）", first("gb", 2026, "节礼日").day, date(2026, 12, 26))
-check("2026 英国春季银行假日", first("gb", 2026, "春季银行假日").day, date(2026, 5, 25))
-
-ca = world.build("ca", 2026, 2026)
-check("2026 加拿大条目数在 6-10", 6 <= len(ca) <= 10, True)
-check("2026 加拿大国庆日", first("ca", 2026, "加拿大国庆日").day, date(2026, 7, 1))
-check("2026 加拿大维多利亚日", first("ca", 2026, "维多利亚日").day, date(2026, 5, 18))
-
-au = world.build("au", 2026, 2026)
-check("2026 澳大利亚条目数在 7-13", 7 <= len(au) <= 13, True)
-check("2026 澳新军团日", first("au", 2026, "澳新军团日").day, date(2026, 4, 25))
-check("2026 澳大利亚节礼日（名义日 12/26）", first("au", 2026, "节礼日").day, date(2026, 12, 26))
-
-sg = world.build("sg", 2026, 2026)
-check("2026 新加坡条目数 >= 9", len(sg) >= 9, True)
-check("2026 新加坡农历新年", first("sg", 2026, "农历新年").day, date(2026, 2, 17))
-check("2026 新加坡开斋节（官方公布，非规则推算）", first("sg", 2026, "开斋节").day, date(2026, 3, 21))
-
-# ---------- 中文译名 ----------
-title = lambda ev: ev.summary.split(" ", 1)[1]  # 去掉国旗
-check("外国事件摘要全部为中文",
-      all(i18n.has_cjk(title(e)) for e in world.build_all(2026, 2026)), True)
-check("中文摘要不含英文残句",
-      any(re.search(r"[A-Za-z]{3,}", title(e)) for e in world.build_all(2026, 2026)), False)
-
-# 全时段译名覆盖：缺译只告警（新节日出现不应阻断发布），但会打印清单提示补表
-missing: set[str] = set()
-for country in world.COUNTRIES:
-    for d in world.load(country.cc):
-        raw = [d.get("local") or "", d.get("name") or ""]
-        if not i18n.zh_name(*raw):
-            missing.add(f"{country.cc}:{raw[1] or raw[0]}")
-if missing:
-    print(f"⚠️ 以下 {len(missing)} 个节日名暂无中文译名（日历中保留英文）：")
-    for m in sorted(missing):
-        print("   -", m)
-else:
-    print("✅ 全部节日名均有中文译名")
+check("2026 母亲节（5 月第 2 个周日）", day_of(2026, "母亲节"), date(2026, 5, 10))
+check("2027 母亲节", day_of(2027, "母亲节"), date(2027, 5, 9))
+check("2026 父亲节（6 月第 3 个周日）", day_of(2026, "父亲节"), date(2026, 6, 21))
+check("2026 感恩节（11 月第 4 个周四）", day_of(2026, "感恩节"), date(2026, 11, 26))
+check("2025 感恩节", day_of(2025, "感恩节"), date(2025, 11, 27))
+check("2026 复活节", day_of(2026, "复活节"), date(2026, 4, 5))
+check("2025 复活节", day_of(2025, "复活节"), date(2025, 4, 20))
+check("2024 复活节", day_of(2024, "复活节"), date(2024, 3, 31))
+check("2038 复活节（远期 computus）", day_of(2038, "复活节"), date(2038, 4, 25))
+check("2026 世界水日", day_of(2026, "世界水日"), date(2026, 3, 22))
+check("2026 联合国日", day_of(2026, "联合国日"), date(2026, 10, 24))
+check("2026 世界人权日", day_of(2026, "世界人权日"), date(2026, 12, 10))
 
 # ---------- 呈现口径 ----------
-check("英语五国数量", len(world.COUNTRIES), 5)
-allw = world.build_all(2026, 2026)
-check("外国日历不含休/班标记",
-      any(e.summary.startswith(("🏖️", "💼")) for e in allw), False)
-check("外国事件 UID 唯一", len({(e.day, e.key) for e in allw}) == len(allw), True)
+catalog = intl.load()
+check("节日清单条数", len(catalog), 28)
+check("全球节日不含休息日标记",
+      any(e.summary.startswith(("🏖️", "💼")) for e in intl.build(2026, 2026)), False)
+check("全球节日摘要全部中文",
+      all(any("\u4e00" <= ch <= "\u9fff" for ch in e.summary) for e in intl.build(2026, 2026)), True)
+check("全球节日摘要不含英文残句",
+      any(re.search(r"[A-Za-z]{3,}", e.summary) for e in intl.build(2026, 2026)), False)
+check("全球节日 UID 唯一（2020-2040）",
+      len({(e.day, e.key) for e in intl.build(2020, 2040)}) == len(intl.build(2020, 2040)), True)
+
+# 每年条目数应稳定（固定日期 + 浮动规则，不应随年份抖动）
+counts = {y: len(intl.build(y, y)) for y in (2024, 2026, 2027, 2031, 2040)}
+check("每年全球节日条数稳定", len(set(counts.values())), 1)
+print("   每年条数:", counts)
+
+# 合并日历（all.ics）不应出现「同一天同名」的重复条目：intl.ics 独立完整，
+# 但 all.ics 里与中国日历重复的情人节/元旦等只保留中国那条
+import generate  # noqa: E402  （同目录 CLI，仅用于复用去重逻辑）
+
+merged = generate.dedupe(cn + generate.drop_shadowed(cn, intl.build(2026, 2026)))
+names = [(e.day, e.summary.split(" ", 1)[-1]) for e in merged]
+check("合并日历无同名同日重复", len(names) - len(set(names)), 0)
+check("合并日历仍含中国侧情人节",
+      [s for d, s in names if d == date(2026, 2, 14)], ["情人节"])
 
 if fails:
     print("\n❌ 自检失败:")
@@ -114,4 +98,4 @@ if fails:
         print("  -", f)
     sys.exit(1)
 
-print(f"\n🎉 全部自检通过（中国 {len(cn)} 条 / 外国 {len(allw)} 条）")
+print(f"\n🎉 全部自检通过（中国 {len(cn)} 条 / 全球 {len(intl.build(2026, 2026))} 条）")

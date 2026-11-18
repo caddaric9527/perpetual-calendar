@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-"""生成可订阅到 Apple 日历的 .ics 文件（中外节日）。
+"""生成可订阅到 Apple 日历的 .ics 文件（中国节假日 + 全球通用节日）。
 
 呈现口径：
   - 中国：农历节日 + 二十四节气 + 法定放假安排（🏖️ 休 / 💼 班 调休）
-  - 外国：只显示节日本体（不含补休/振替），多日连休合并为一条
+  - 全球：联合国核心国际日（🌍）+ 全球通行民间节日（🎉），纯规则推算，不依赖外部 API
 
 用法:
     python generate.py                        # 默认 2020-2040，输出到 docs/
@@ -18,30 +18,28 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from calgen import china, world
+from calgen import china, intl
 from calgen.ical import Event, write_calendar
 
 ROOT = Path(__file__).resolve().parent
 
 BASE_TARGETS: dict[str, tuple[str, str, str]] = {
     "all.ics": (
-        "中外节日 · 全部",
-        "中国节日与法定放假安排 + 美国、英国、加拿大、澳大利亚、新加坡节日",
+        "万年历 · 中国节假日 + 全球节日",
+        "中国节日、法定放假与调休 + 二十四节气 + 联合国国际日与全球民间节日",
         "#FF9500",
     ),
     "cn.ics": (
-        "中外节日 · 中国",
+        "万年历 · 中国",
         "农历节日、二十四节气、法定放假与调休",
         "#FF3B30",
     ),
     "intl.ics": (
-        "中外节日 · 国际",
-        "美国、英国、加拿大、澳大利亚、新加坡",
+        "万年历 · 全球通用节日",
+        "联合国核心国际日 + 全球通行民间节日（不含任何国家的休息日）",
         "#5AA9FF",
     ),
 }
-
-COUNTRY_COLORS = ["#5AA9FF", "#7B8CF5", "#4FB3BF", "#3FBF8F", "#C9A227"]
 
 
 def load_overrides(path: Path | None) -> list[Event]:
@@ -90,8 +88,17 @@ def dedupe(events: list[Event]) -> list[Event]:
     return list(seen.values())
 
 
+def drop_shadowed(cn_events: list[Event], intl_events: list[Event]) -> list[Event]:
+    """合并日历里去掉与中国日历重复的同一节日（如元旦、情人节同日同名）。"""
+    def name_of(ev: Event) -> str:
+        return ev.summary.split(" ", 1)[-1]
+
+    taken = {(ev.day, name_of(ev)) for ev in cn_events}
+    return [ev for ev in intl_events if (ev.day, name_of(ev)) not in taken]
+
+
 def main() -> int:
-    ap = argparse.ArgumentParser(description="生成中外节日万年历 .ics")
+    ap = argparse.ArgumentParser(description="生成中国节假日 + 全球通用节日万年历 .ics")
     ap.add_argument("--from-year", type=int, default=2020)
     ap.add_argument("--to-year", type=int, default=2040)
     ap.add_argument("--out", default="docs")
@@ -100,6 +107,7 @@ def main() -> int:
     ap.add_argument("--overrides", default=str(ROOT / "data" / "holidays_cn.json"),
                     help="中国法定放假安排 JSON")
     ap.add_argument("--no-terms", action="store_true", help="不包含二十四节气")
+    ap.add_argument("--no-intl", action="store_true", help="不包含全球通用节日")
     ap.add_argument("--cn-only", action="store_true", help="只生成中国日历（可用 1900-2099）")
     args = ap.parse_args()
 
@@ -122,24 +130,15 @@ def main() -> int:
     cn_all = dedupe(cn_events + stat_events)
 
     targets: dict[str, list[Event]] = {"cn.ics": cn_all}
-    if args.cn_only:
+    if args.cn_only or args.no_intl:
         targets["all.ics"] = cn_all
     else:
-        world_events = world.build_all(fy, ty)
-        targets["all.ics"] = dedupe(cn_all + world_events)
-        targets["intl.ics"] = dedupe(world_events)
-        for country in world.COUNTRIES:
-            targets[f"{country.cc}.ics"] = dedupe(world.build(country.cc, fy, ty))
+        intl_events = dedupe(intl.build(fy, ty))
+        targets["all.ics"] = dedupe(cn_all + drop_shadowed(cn_all, intl_events))
+        targets["intl.ics"] = intl_events
 
     for filename, events in targets.items():
-        if filename in BASE_TARGETS:
-            calname, caldesc, color = BASE_TARGETS[filename]
-        else:
-            country = world.BY_CC[filename[:-4]]
-            calname = f"中外节日 · {country.name}"
-            caldesc = f"{country.name}公共节日（仅节日，不含补休）"
-            color = COUNTRY_COLORS[world.COUNTRIES.index(country) % len(COUNTRY_COLORS)]
-
+        calname, caldesc, color = BASE_TARGETS[filename]
         count = write_calendar(
             events,
             out / filename,
@@ -154,11 +153,10 @@ def main() -> int:
 
     span = f"{fy}-{ty}（{ty - fy + 1} 年）"
     print(f"📅 覆盖范围: {span}　输出目录: {out.resolve()}")
-    if not args.cn_only:
-        for country in world.COUNTRIES:
-            cov = world.coverage(country.cc)
-            if cov:
-                print(f"   {country.flag} {country.name}: 数据 {cov[0]}-{cov[1]}")
+    if not (args.cn_only or args.no_intl):
+        catalog = intl.load()
+        memorial = sum(1 for d in catalog if d.get("kind") == "memorial")
+        print(f"   🌍 全球通用节日：{len(catalog)} 个（国际日 {memorial} + 民间 {len(catalog) - memorial}），纯规则推算")
     return 0
 
 

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>万年历 · 中外节日日历订阅</title>
-<meta name="description" content="中国节日与中国法定放假安排 + 美国、英国、加拿大、澳大利亚、新加坡节日，一条 iCalendar 订阅源同步到 Apple 日历。">
+<title>万年历 · 中国节假日 + 全球通用节日</title>
+<meta name="description" content="中国节日与中国法定放假安排（含调休）+ 二十四节气 + 联合国核心国际日与全球通行民间节日，一条 iCalendar 订阅源同步到 Apple 日历。">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
 <style>
   :root{
@@ -41,7 +41,7 @@
     background:linear-gradient(100deg,#ff8b6b,#ffb545 45%,#5aa9ff);
     -webkit-background-clip:text;background-clip:text;color:transparent;
   }
-  .lead{margin-top:16px;color:var(--muted);font-size:16.5px;max-width:640px}
+  .lead{margin-top:16px;color:var(--muted);font-size:16.5px;max-width:660px}
 
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
   @media (max-width:760px){.grid{grid-template-columns:1fr}}
@@ -78,24 +78,20 @@
   .sec-head h2{font-size:20px;font-weight:650;letter-spacing:-.01em}
   .sec-head span{font-size:13px;color:var(--dim)}
 
-  /* 单国订阅 */
-  .countries{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-  @media (max-width:680px){.countries{grid-template-columns:repeat(2,1fr)}}
+  .catalog{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media (max-width:700px){.catalog{grid-template-columns:1fr}}
+  .group-title{
+    grid-column:1/-1;display:flex;align-items:center;gap:10px;
+    font-size:13.5px;color:var(--muted);margin:8px 0 2px;
+  }
+  .group-title b{color:var(--text);font-weight:600}
+  .group-title i{font-style:normal;font-size:12px;color:var(--dim)}
   .chip{
-    display:flex;align-items:center;gap:10px;padding:12px 13px;border-radius:13px;
-    background:var(--panel);border:1px solid var(--line);text-decoration:none;color:var(--text);
-    transition:.2s;position:relative;
+    display:flex;align-items:center;gap:10px;padding:11px 13px;border-radius:12px;
+    background:var(--panel);border:1px solid var(--line);
   }
-  .chip:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
-  .chip .flag{font-size:19px;line-height:1}
-  .chip .meta{flex:1;min-width:0}
-  .chip .nm{display:block;font-size:14px;font-weight:550}
-  .chip .cnt{display:block;font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}
-  .chip .cp{
-    border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--muted);
-    font-size:11px;padding:4px 8px;border-radius:7px;cursor:pointer;font-family:inherit;
-  }
-  .chip .cp:hover{color:#fff;background:rgba(255,255,255,.12)}
+  .chip .nm{flex:1;font-size:14px;min-width:0}
+  .chip .rule{font-size:11.5px;color:var(--dim);white-space:nowrap;font-variant-numeric:tabular-nums}
 
   .tabs{display:flex;gap:6px;background:rgba(255,255,255,.04);border:1px solid var(--line);padding:4px;border-radius:11px}
   .tabs button{
@@ -141,16 +137,16 @@
 <div class="wrap">
   <div class="tag"><span class="dot"></span><span id="spanText">正在生成订阅源…</span></div>
 
-  <h1>把 <em>中外节日</em><br>装进你的日历</h1>
+  <h1>把 <em>中国节假日</em><br>和<em>全球节日</em>装进日历</h1>
   <p class="lead">
-    一条 <code style="font-size:14px;color:#cfd6e0">iCalendar</code> 订阅链接：中国节日与中国法定放假安排（含调休），
-    加上美国、英国、加拿大、澳大利亚、新加坡的节日 —— 自动同步到 Apple 日历。
+    一条 <code style="font-size:14px;color:#cfd6e0">iCalendar</code> 订阅链接：中国节日与法定放假安排（含调休）、二十四节气，
+    加上联合国核心国际日与全球通行的民间节日 —— 自动同步到 Apple 日历。
   </p>
 
   <div class="grid">
     <div class="card" data-k="all">
       <h3>🗓️ 全部</h3>
-      <p>中国节日与放假安排 + 5 国节日，一个日历看全。适合跨时区工作与海外生活。</p>
+      <p>中国节假日 + 全球通用节日，一个日历看全。日常够用，不用装两个订阅。</p>
       <span class="count" data-count="all">—</span>
       <div class="btn-row">
         <a class="btn btn-primary" data-sub="all.ics" href="#">订阅</a>
@@ -167,8 +163,8 @@
       </div>
     </div>
     <div class="card" data-k="intl">
-      <h3>🌍 国际</h3>
-      <p>美国、英国、加拿大、澳大利亚、新加坡 5 国节日，节日名全部中文，详情保留英文原名；不含补休，多日连休合并为一条。</p>
+      <h3>🌍 全球通用</h3>
+      <p>联合国核心国际日 + 全球通行民间节日，纯规则推算，不含任何国家的休息日。</p>
       <span class="count" data-count="intl">—</span>
       <div class="btn-row">
         <a class="btn btn-primary" data-sub="intl.ics" href="#">订阅</a>
@@ -178,8 +174,8 @@
   </div>
 
   <section>
-    <div class="sec-head"><h2>单国订阅</h2><span>只想看某个国家的节日？点国家名即可</span></div>
-    <div class="countries" id="countries"></div>
+    <div class="sec-head"><h2>全球节日清单</h2><span>28 个 · 固定日期与「第几个周几」规则混合</span></div>
+    <div class="catalog" id="catalog"></div>
   </section>
 
   <section>
@@ -188,7 +184,7 @@
       <div class="tabs" role="tablist">
         <button role="tab" aria-selected="true" data-filter="all">全部</button>
         <button role="tab" aria-selected="false" data-filter="cn">中国</button>
-        <button role="tab" aria-selected="false" data-filter="intl">国际</button>
+        <button role="tab" aria-selected="false" data-filter="intl">全球</button>
       </div>
     </div>
     <div class="list" id="list"><div class="empty">正在读取日历数据…</div></div>
@@ -201,7 +197,7 @@
         <h4>📱 iPhone / iPad</h4>
         <ol>
           <li>点上面的「订阅」按钮（或复制 <code>webcal://</code> 链接在 Safari 打开）</li>
-          <li>弹出「订阅日历」后点 <b>订阅</b></li>
+          <li>看到「订阅日历」提示后点 <b>订阅</b></li>
           <li>也可手动：设置 → 日历 → 账户 → 添加账户 → 其他 → 添加已订阅的日历</li>
         </ol>
       </div>
@@ -217,7 +213,7 @@
   </section>
 
   <footer>
-    <span>中国放假安排：gov.cn 公告（via holiday-cn）· 外国节日：date.nager.at · 农历/节气：cnlunar</span>
+    <span>中国放假安排：gov.cn 公告（via holiday-cn）· 国际日：un.org · 农历/节气：cnlunar</span>
     <span><a href="https://github.com/caddaric9527/perpetual-calendar">GitHub 源码</a> · MIT License</span>
   </footer>
 </div>
@@ -228,12 +224,36 @@
   const BASE = location.protocol === 'file:' ? '' : location.origin + location.pathname.replace(/[^/]*$/, '');
   const WEB = BASE.replace(/^https?:/, 'webcal:');
   const WD = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
-  const COUNTRIES = [
-    { cc: 'us', flag: '🇺🇸', name: '美国' },
-    { cc: 'gb', flag: '🇬🇧', name: '英国' },
-    { cc: 'ca', flag: '🇨🇦', name: '加拿大' },
-    { cc: 'au', flag: '🇦🇺', name: '澳大利亚' },
-    { cc: 'sg', flag: '🇸🇬', name: '新加坡' }
+
+  const CATALOG = [
+    { k: 'memorial', n: '国际消费者权益日', r: '3月15日' },
+    { k: 'memorial', n: '国际幸福日', r: '3月20日' },
+    { k: 'memorial', n: '世界森林日', r: '3月21日' },
+    { k: 'memorial', n: '世界水日', r: '3月22日' },
+    { k: 'memorial', n: '世界气象日', r: '3月23日' },
+    { k: 'memorial', n: '世界卫生日', r: '4月7日' },
+    { k: 'memorial', n: '世界地球日', r: '4月22日' },
+    { k: 'memorial', n: '世界读书日', r: '4月23日' },
+    { k: 'memorial', n: '世界环境日', r: '6月5日' },
+    { k: 'memorial', n: '国际青年日', r: '8月12日' },
+    { k: 'memorial', n: '世界人道主义日', r: '8月19日' },
+    { k: 'memorial', n: '国际和平日', r: '9月21日' },
+    { k: 'memorial', n: '世界旅游日', r: '9月27日' },
+    { k: 'memorial', n: '世界教师日', r: '10月5日' },
+    { k: 'memorial', n: '世界精神卫生日', r: '10月10日' },
+    { k: 'memorial', n: '世界粮食日', r: '10月16日' },
+    { k: 'memorial', n: '联合国日', r: '10月24日' },
+    { k: 'memorial', n: '世界艾滋病日', r: '12月1日' },
+    { k: 'memorial', n: '世界人权日', r: '12月10日' },
+    { k: 'festival', n: '情人节', r: '2月14日' },
+    { k: 'festival', n: '愚人节', r: '4月1日' },
+    { k: 'festival', n: '母亲节', r: '5月第2个周日' },
+    { k: 'festival', n: '父亲节', r: '6月第3个周日' },
+    { k: 'festival', n: '万圣节', r: '10月31日' },
+    { k: 'festival', n: '感恩节', r: '11月第4个周四' },
+    { k: 'festival', n: '复活节', r: '春分月圆后首个周日' },
+    { k: 'festival', n: '平安夜', r: '12月24日' },
+    { k: 'festival', n: '圣诞节', r: '12月25日' }
   ];
 
   const toast = document.getElementById('toast');
@@ -243,7 +263,6 @@
     clearTimeout(window.__tt);
     window.__tt = setTimeout(() => toast.classList.remove('on'), 1600);
   }
-
   async function copy(text) {
     try {
       await navigator.clipboard.writeText(text);
@@ -255,28 +274,22 @@
     showToast('链接已复制');
   }
 
-  // 顶卡订阅
   document.querySelectorAll('[data-sub]').forEach(a => { a.href = WEB + a.dataset.sub; });
   document.querySelectorAll('[data-copy]').forEach(btn => {
     btn.addEventListener('click', () => copy(BASE + btn.dataset.copy));
   });
 
-  // 单国卡片
-  const box = document.getElementById('countries');
-  box.innerHTML = COUNTRIES.map(c => `
-    <div class="chip">
-      <span class="flag">${c.flag}</span>
-      <span class="meta">
-        <a class="nm" href="${WEB}${c.cc}.ics" style="color:inherit;text-decoration:none">${c.name}</a>
-        <span class="cnt" data-cc="${c.cc}">—</span>
-      </span>
-      <button class="cp" data-copycc="${c.cc}.ics">复制</button>
-    </div>`).join('');
-  box.querySelectorAll('[data-copycc]').forEach(b => {
-    b.addEventListener('click', () => copy(BASE + b.dataset.copycc));
-  });
+  const box = document.getElementById('catalog');
+  const groups = [
+    { k: 'memorial', title: '🌍 国际纪念日', note: '联合国官方设立' },
+    { k: 'festival', title: '🎉 民间节日', note: '全球通行' }
+  ];
+  box.innerHTML = groups.map(g => {
+    const items = CATALOG.filter(c => c.k === g.k);
+    return `<div class="group-title"><b>${g.title}</b><i>${items.length} 个 · ${g.note}</i></div>` +
+      items.map(c => `<div class="chip"><span class="nm">${c.n}</span><span class="rule">${c.r}</span></div>`).join('');
+  }).join('');
 
-  // 解析 ICS
   function parse(text) {
     const unfolded = text.replace(/\r\n[ \t]/g, '');
     const unescape = s => s.replace(/\\([\\;,nN])/g, (m, c) => (c === 'n' || c === 'N') ? ' ' : c);
@@ -309,10 +322,8 @@
     return Math.round((d - today) / 86400000);
   }
   const isCN = e => e.cat.includes('中国') || e.cat.includes('节气');
-  function flagOf(e) {
-    for (const c of COUNTRIES) if (e.cat.includes(c.name)) return c.flag;
-    return isCN(e) ? '🇨🇳' : '🌍';
-  }
+  const flagOf = e => isCN(e) ? (e.summary.startsWith('🌿') ? '🌿' : '🇨🇳')
+                              : (e.summary.startsWith('🎉') ? '🎉' : '🌍');
 
   function render(filter) {
     if (!all.length) return;
@@ -349,10 +360,6 @@
       for (const [k, v] of Object.entries(counts)) {
         const el = document.querySelector(`[data-count="${k}"]`);
         if (el) el.textContent = `${v} 条事件`;
-      }
-      for (const c of COUNTRIES) {
-        const el = box.querySelector(`[data-cc="${c.cc}"]`);
-        if (el) el.textContent = `${all.filter(e => e.cat.includes(c.name)).length} 条`;
       }
       const years = [...new Set(all.map(e => e.ymd.slice(0, 4)))].sort();
       document.getElementById('spanText').textContent =
