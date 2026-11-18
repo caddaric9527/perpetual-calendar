@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>万年历 · 中外节日日历订阅</title>
-<meta name="description" content="中国节日与中国法定放假安排 + 欧美日韩节日，一条 iCalendar 订阅源同步到 Apple 日历。">
+<meta name="description" content="中国节日与中国法定放假安排 + 美国、英国、加拿大、澳大利亚、新加坡节日，一条 iCalendar 订阅源同步到 Apple 日历。">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
 <style>
   :root{
@@ -144,13 +144,13 @@
   <h1>把 <em>中外节日</em><br>装进你的日历</h1>
   <p class="lead">
     一条 <code style="font-size:14px;color:#cfd6e0">iCalendar</code> 订阅链接：中国节日与中国法定放假安排（含调休），
-    加上美国、英国、加拿大、澳大利亚、新加坡、日本、韩国、德国、法国的节日 —— 自动同步到 Apple 日历。
+    加上美国、英国、加拿大、澳大利亚、新加坡的节日 —— 自动同步到 Apple 日历。
   </p>
 
   <div class="grid">
     <div class="card" data-k="all">
       <h3>🗓️ 全部</h3>
-      <p>中国节日与放假安排 + 9 国节日，一个日历看全。适合跨时区工作与海外生活。</p>
+      <p>中国节日与放假安排 + 5 国节日，一个日历看全。适合跨时区工作与海外生活。</p>
       <span class="count" data-count="all">—</span>
       <div class="btn-row">
         <a class="btn btn-primary" data-sub="all.ics" href="#">订阅</a>
@@ -168,7 +168,7 @@
     </div>
     <div class="card" data-k="intl">
       <h3>🌍 国际</h3>
-      <p>欧美日韩 9 国节日，只呈现节日本体，不含补休/振替，多日连休合并为一条。</p>
+      <p>美国、英国、加拿大、澳大利亚、新加坡 5 国节日，只呈现节日本体，不含补休，多日连休合并为一条。</p>
       <span class="count" data-count="intl">—</span>
       <div class="btn-row">
         <a class="btn btn-primary" data-sub="intl.ics" href="#">订阅</a>
@@ -233,11 +233,7 @@
     { cc: 'gb', flag: '🇬🇧', name: '英国' },
     { cc: 'ca', flag: '🇨🇦', name: '加拿大' },
     { cc: 'au', flag: '🇦🇺', name: '澳大利亚' },
-    { cc: 'sg', flag: '🇸🇬', name: '新加坡' },
-    { cc: 'jp', flag: '🇯🇵', name: '日本' },
-    { cc: 'kr', flag: '🇰🇷', name: '韩国' },
-    { cc: 'de', flag: '🇩🇪', name: '德国' },
-    { cc: 'fr', flag: '🇫🇷', name: '法国' }
+    { cc: 'sg', flag: '🇸🇬', name: '新加坡' }
   ];
 
   const toast = document.getElementById('toast');

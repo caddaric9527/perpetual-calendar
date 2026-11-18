@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent
 BASE_TARGETS: dict[str, tuple[str, str, str]] = {
     "all.ics": (
         "中外节日 · 全部",
-        "中国节日与法定放假安排 + 欧美日韩节日",
+        "中国节日与法定放假安排 + 美国、英国、加拿大、澳大利亚、新加坡节日",
         "#FF9500",
     ),
     "cn.ics": (
@@ -36,13 +36,12 @@ BASE_TARGETS: dict[str, tuple[str, str, str]] = {
     ),
     "intl.ics": (
         "中外节日 · 国际",
-        "美国、英国、加拿大、澳大利亚、新加坡、日本、韩国、德国、法国",
+        "美国、英国、加拿大、澳大利亚、新加坡",
         "#5AA9FF",
     ),
 }
 
-COUNTRY_COLORS = ["#5AA9FF", "#7B8CF5", "#4FB3BF", "#3FBF8F", "#C9A227",
-                  "#E86A6A", "#9B7BE8", "#8A8F98", "#6E9BE8"]
+COUNTRY_COLORS = ["#5AA9FF", "#7B8CF5", "#4FB3BF", "#3FBF8F", "#C9A227"]
 
 
 def load_overrides(path: Path | None) -> list[Event]:

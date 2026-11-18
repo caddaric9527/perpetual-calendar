@@ -1,14 +1,17 @@
-"""中国以外的国家/地区节日 —— 只呈现「节日」，不呈现休息日/补休。
+"""中国以外的英语国家节日 —— 只呈现「节日」，不呈现休息日/补休。
 
-为什么用数据而不是规则硬算：日本「振替休日」、韩国替代公休日、新加坡的伊斯兰/印度教
-节日（开斋节、哈芝节、卫塞节、屠妖节）每年由官方公布，规则推算必然出错，必须用数据表。
+覆盖：美国、英国、加拿大、澳大利亚、新加坡（五国）。
+
+为什么用数据而不是规则硬算：新加坡的开斋节（Hari Raya Puasa）、哈芝节、卫塞节、
+屠妖节每年由官方公布，英国/加拿大的君主生日、维多利亚日等按公告微调，
+规则推算必然出错，必须用日期数据表。
 
 数据同步见 sync_world.py，缓存 data/world/{cc}.json（已在同步阶段过滤为全国性假日）。
 
 呈现口径（与中国不同）：
   - 中国：显示放假安排（🏖️ 休 / 💼 班 调休），来自国务院公告
-  - 外国：只显示节日本体，过滤「振替休日 / 대체공휴일 / observed / substitute」等补休条目
-  - 连续多日的同一节日（如韩国 설날 三天、新加坡农历新年两天）合并为一条，注明连休天数
+  - 外国：只显示节日本体，过滤「observed / substitute / in lieu」等补休条目
+  - 连续多日的同一节日（如新加坡农历新年两天）合并为一条，注明连休天数
 """
 
 from __future__ import annotations
@@ -24,9 +27,9 @@ from .ical import Event
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "world"
 
-# 补休 / 振替 / 替代休日 —— 属「休息日」语义，外国日历不呈现
+# 补休 / 替代休日 —— 属「休息日」语义，外国日历不呈现
 SUBSTITUTE_PAT = re.compile(
-    r"振替|替代休日|代替休日|补休|대체\s*공휴일|observed|substitute|in\s+lieu|make-?up",
+    r"补休|振替|替代休日|代替休日|대체\s*공휴일|observed|substitute|in\s+lieu|make-?up",
     re.IGNORECASE,
 )
 
@@ -45,7 +48,7 @@ class Country:
 
 # mode 说明：
 #   federal — 仅联邦/全国统一假日（美国 11 个联邦法定假日）
-#   national — counties 为空即视为全国性（德/法/加/日/韩/新）
+#   national — counties 为空即视为全国性（加/新）
 #   eng     — 英国：英格兰+威尔士口径（不含苏格兰、北爱独有假日）
 #   au      — 澳大利亚：全国性 或 覆盖 ≥4 个州/领地
 COUNTRIES: list[Country] = [
@@ -54,10 +57,6 @@ COUNTRIES: list[Country] = [
     Country("ca", "🇨🇦", "加拿大", "national"),
     Country("au", "🇦🇺", "澳大利亚", "au"),
     Country("sg", "🇸🇬", "新加坡", "national"),
-    Country("jp", "🇯🇵", "日本", "national"),
-    Country("kr", "🇰🇷", "韩国", "national"),
-    Country("de", "🇩🇪", "德国", "national"),
-    Country("fr", "🇫🇷", "法国", "national"),
 ]
 
 BY_CC = {c.cc: c for c in COUNTRIES}
@@ -77,6 +76,24 @@ FIXED_NOMINAL: dict[str, dict[str, tuple[int, int]]] = {
         "New Year's Day": (1, 1),
         "Christmas Day": (12, 25),
         "Boxing Day": (12, 26),
+    },
+    "au": {
+        "New Year's Day": (1, 1),
+        "Australia Day": (1, 26),
+        "Anzac Day": (4, 25),
+        "Christmas Day": (12, 25),
+        "Boxing Day": (12, 26),
+    },
+    "ca": {
+        "New Year's Day": (1, 1),
+        "Canada Day": (7, 1),
+        "Christmas Day": (12, 25),
+    },
+    "sg": {
+        "New Year's Day": (1, 1),
+        "Labour Day": (5, 1),
+        "National Day": (8, 9),
+        "Christmas Day": (12, 25),
     },
 }
 

@@ -46,30 +46,41 @@ def first(cc: str, year: int, kw: str):
     return evs[0] if evs else None
 
 
+def exact(cc: str, year: int, name: str):
+    """按节日全名精确匹配（避免 Independence Day 命中 Juneteenth National Independence Day）。"""
+    flag = world.BY_CC[cc].flag
+    evs = [e for e in world.build(cc, year, year) if e.summary == f"{flag} {name}"]
+    return evs[0] if evs else None
+
+
 us = world.build("us", 2026, 2026)
 check("美国 2026 条目数在 8-13", 8 <= len(us) <= 13, True)
 tg = first("us", 2026, "Thanksgiving")
 check("2026 美国感恩节", tg.day if tg else None, date(2026, 11, 26))
+check("2026 美国独立日（还原名义日 7/4）", exact("us", 2026, "Independence Day").day, date(2026, 7, 4))
 
-jp = world.build("jp", 2026, 2026)
-check("2026 日本条目数 >= 14", len(jp) >= 14, True)
-check("2026 天皇誕生日", first("jp", 2026, "天皇誕生日").day, date(2026, 2, 23))
-check("日本无振替休日", any("振替" in e.summary for e in jp), False)
+gb = world.build("gb", 2026, 2026)
+check("2026 英国条目数在 6-10", 6 <= len(gb) <= 10, True)
+check("2026 英国 Boxing Day（名义日 12/26）", first("gb", 2026, "Boxing Day").day, date(2026, 12, 26))
+check("2026 英国春季银行假日", first("gb", 2026, "Spring Bank Holiday").day, date(2026, 5, 25))
 
-kr = world.build("kr", 2026, 2026)
-seol = first("kr", 2026, "설날")
-check("2026 韩国 설날 首日", seol.day if seol else None, date(2026, 2, 16))
-check("韩国 설날 连休合并为一条", len([e for e in kr if "설날" in e.summary]), 1)
-check("韩国无替代公休日", any("대체" in e.summary for e in kr), False)
+ca = world.build("ca", 2026, 2026)
+check("2026 加拿大条目数在 6-10", 6 <= len(ca) <= 10, True)
+check("2026 加拿大国庆", first("ca", 2026, "Canada Day").day, date(2026, 7, 1))
+check("2026 加拿大维多利亚日", first("ca", 2026, "Victoria Day").day, date(2026, 5, 18))
+
+au = world.build("au", 2026, 2026)
+check("2026 澳大利亚条目数在 7-13", 7 <= len(au) <= 13, True)
+check("2026 澳新军团日", first("au", 2026, "Anzac Day").day, date(2026, 4, 25))
+check("2026 澳大利亚 Boxing Day（名义日 12/26）", first("au", 2026, "Boxing Day").day, date(2026, 12, 26))
 
 sg = world.build("sg", 2026, 2026)
 check("2026 新加坡条目数 >= 9", len(sg) >= 9, True)
-de = world.build("de", 2026, 2026)
-check("2026 德国条目数 >= 8", len(de) >= 8, True)
-fr = world.build("fr", 2026, 2026)
-check("2026 法国条目数 >= 10", len(fr) >= 10, True)
+check("2026 新加坡农历新年", first("sg", 2026, "Chinese New Year").day, date(2026, 2, 17))
+check("2026 新加坡开斋节（官方公布，非规则推算）", first("sg", 2026, "Hari Raya Puasa").day, date(2026, 3, 21))
 
 # ---------- 呈现口径 ----------
+check("英语五国数量", len(world.COUNTRIES), 5)
 allw = world.build_all(2026, 2026)
 check("外国日历不含休/班标记",
       any(e.summary.startswith(("🏖️", "💼")) for e in allw), False)
